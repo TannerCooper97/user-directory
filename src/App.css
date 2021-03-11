@@ -1,0 +1,84 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+.App{
+  height: 100%;
+  width: auto;
+  
+}
+
+#header-box{
+  box-sizing: border-box;
+  display: flex;
+ background-color: rgb(42, 171, 226);
+ height: 10vh;
+ width: 100%;
+ align-items: center;
+ padding: 0 5%;
+ font-size: 13.8px;
+}
+
+#Home{
+  font-weight: bold;
+}
+
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: column;
+  background-color:rgb(37, 37, 37);
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 7%;
+}
+
+#employee-card{
+  background-color: white;
+  width: 85%;
+  height: 75%;
+  padding: 10px;
+}
+
+.card-number{
+  display: flex;
+  justify-content:center;
+}
+
+.card-info{
+  padding-left: 5%;
+}
+
+.card-name{
+  text-decoration: underline #26a5ff;
+  padding-left: 5%;
+  margin-bottom: 2%
+  
+}
+
+#top{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+#favs{
+  margin-top: 2%;
+}
+
+#movie-list{
+  padding-left: 10%;
+  margin-top: 2%;
+}
+
+.buttons{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 5%;
+
+
+}
